@@ -5,7 +5,7 @@ body {
     font-family: 'Franklin Gothic Medium';
     background-color: rgb(59, 5, 110);
     color: white;
-    font-size: 24px;
+    font-size: 30px;
 }
 
 h1, p {
@@ -13,30 +13,55 @@ h1, p {
    text-align: center;
 }
 
-form {
-    width: 80%;
-    height: auto;
-    margin: auto;
 
-}
-fieldset {
+form {
     border: 3px;
+    max-width: 800px;
+    min-width: 300px;
     border-style: dashed;
-    border-width: 0.5vw;
-    border-color:white;
-    padding: 1rem;
+    border-width: 5px;
+    border-color: white;
+   
+    padding: 1em;
+    margin: 0 auto;
 
 }
 
 label {
     display: block;
     margin: 0.5rem;
+    padding-top: 7px;
+    padding-bottom: 7px;
 }
 
-input {
-    padding: 6px;
-    width: 100%;
-    margin-top: 1em;
-    margin-bottom: 1em;
+input,
+textarea,
+select {
+  margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 2em;
     
+}
+fieldset {
+  border: none;
+  padding: 2rem 0;
+  border-bottom: 3px solid #d41f1fce;
+}
+.inline {
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+}
+#checkbox {
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+  flex-direction: column;
+}
+
+input[type="checkbox"] {
+   width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+  flex-direction: column;
 }
