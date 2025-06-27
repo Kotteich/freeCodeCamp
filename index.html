@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+<h1 id="title">Survey form</h1>
+<p id="description">This is a project №1 for freeCodeCamp</p>
+
+<form id="survey-form">
+  <fieldset>
+  <label id="name-label" for="name">Name<input id="name" type="text" placeholder="Enter your name" value=""/></label>
+<label id="email-label" for="email">Email<input id="email" type="email" placeholder="Enter your email" value="" required/></label>
+<label id="number-label" for="number">Age<input id="number" type="number" min="1" max="120" placeholder="Enter your age" value="" required/></label>
+<label for="dropdown">Select your weapon <select name="weapon" id="dropdown">
+  <option value="">Longsword</option>
+  <option value="1">Rapier</option>
+  <option value="2">Sabre</option>
+  <option value="3">Sword&Buckler</option>
+</select></label>
+<label for="gender">Your gender<input id="gender" name="gender" class="inline" type="radio" value="1" checked>Female</input>
+<input id="gender" name="gender" class="inline" type="radio" value="2">Male</input></label>
+
+<label for="referrer">Where did you see fencing?
+  <input id="referrer" type="checkbox" value="1">Movie</input>
+  <input id="referrer" type="checkbox" value="2">Book</input>
+  <input id="referrer" type="checkbox" value="3">Game</input>
+  <input id="referrer" type="checkbox" value="4">Life</input>
+  <input id="referrer" type="checkbox" value="5">Other</input>
+</label>
+
+<label for="addinfo">Tell us more about yourself
+  <textarea id="addinfo" name="addinfo" rows="3" cols="30" placeholder="I like fencing..."> </textarea>
+</label>
+
+<input id="submit" type="button" value="Submit" type="submit">
+
+</fieldset>
+
+</form>
+
+    </body>
+    </html>
