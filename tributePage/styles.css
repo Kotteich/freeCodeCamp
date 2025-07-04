@@ -3,18 +3,84 @@ body {
     font-size: 24px;
     line-height: 36px;
     
+     background-color:#e6a117c9;
 }
 
 header {
     display: flex;
-    align-items: center;
-    width: 100%;
+   justify-content: space-between;
+   flex-direction: row;
+   align-items: center;
+    width: auto;
     height: 150px;
-    padding: 0;
-    margin: 0;
-     background-image: url("");
+    padding: 0.5rem;
+    margin: 1%;
+    margin-bottom: 36px;
+    background-color: #e62117bd;
+border-radius: 10px;
+     border: none;
 }
-#logo {
-    height: 150px;
 
+#title {
+   color: rgb(34, 29, 29);
+   margin-left: 30px;
+   font-size: 72px;
+font-style: italic;
+letter-spacing: 5px;
 }
+
+#description {
+    font-size: small;
+    
+    font-style: italic;
+    padding-top: 110px;
+}
+
+#logo {
+   
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+    margin-left: 1%;
+    
+}
+
+.main-foto {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3%;
+    padding-bottom: 0;
+    background-color: #e62117bd;
+    margin: 1%;
+    border-radius: 20px;
+}
+
+#photo1 {
+    border-radius: 10px;
+}
+.member {
+    border-radius: 10px;
+}
+
+.figcap1 {
+    padding: 0.7em;
+    font-style: italic;
+    text-align: center;
+    line-height: 26px;
+}
+
+.main-info {
+    padding: 0 1em;
+    font-size: medium;
+    font-style: oblique;
+    line-height: 26px;
+margin: 2em 1em;
+    
+    
+    border-radius: 10px;
+    border: dotted;
+}
+
+
