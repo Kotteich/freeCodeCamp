@@ -39,7 +39,8 @@ textarea,
 select {
   margin: 10px 0 0 0;
   width: 100%;
-  min-height: 2em;
+  height: 3em;
+ 
     
 }
 fieldset {
@@ -49,8 +50,9 @@ fieldset {
 }
 .inline {
   width: unset;
-  margin: 0 0.5em 0 0;
+  margin: 0 1em 0 0;
   vertical-align: middle;
+  scale: 1.7;
 }
 #checkbox {
   width: unset;
@@ -61,7 +63,22 @@ fieldset {
 
 input[type="checkbox"] {
    width: unset;
-  margin: 0 0.5em 0 0;
+   height: 2rem;
+  margin: 0 1em 0 0;
   vertical-align: middle;
   flex-direction: column;
+  scale: 1.7;
+}
+
+::placeholder {
+    font-size: 20px;
+}
+
+#name, #email, #number, textarea, #submit {
+    border-radius: 0.2cm;
+}
+
+#dropdown {
+    font-size: 20px;
+    font-weight: bold;
 }
