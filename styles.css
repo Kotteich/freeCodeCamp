@@ -1,84 +1,149 @@
 body {
-    width: 100%;
-    height: auto;
-    margin: 0%;
-    font-family: 'Franklin Gothic Medium';
-    background-color: rgb(59, 5, 110);
-    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+    line-height: 36px;
+    
+     background-color:#e6a117c9;
+}
+
+header {
+    display: flex;
+   justify-content: space-between;
+   flex-direction: row;
+   align-items: center;
+    width: auto;
+    height: 150px;
+    padding: 0.5rem;
+    margin: 1%;
+    margin-bottom: 36px;
+    background-color: #e62117bd;
+border-radius: 10px;
+     border: none;
+}
+
+#title {
+   color: rgb(34, 29, 29);
+   margin-left: 30px;
+   font-size: 72px;
+font-style: italic;
+letter-spacing: 5px;
+}
+
+#description {
+    font-size: small;
+    
+    font-style: italic;
+    padding-top: 110px;
+}
+
+#logo {
+   
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+    margin-left: 1%;
+    
+}
+
+.main-foto {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3%;
+    padding-bottom: 0;
+    background-color: #e62117bd;
+    margin: 1%;
+    border-radius: 20px;
+}
+
+#photo1 {
+    border-radius: 10px;
+}
+.member {
+    border-radius: 10px;
+}
+
+.figcap1 {
+    padding: 0.7em;
+    font-style: italic;
+    text-align: center;
+    line-height: 26px;
+}
+
+.main-info {
+    padding: 0 1em;
+    font-size: medium;
+    font-style: oblique;
+    line-height: 26px;
+margin: 2em 1em;
+    
+    
+    border-radius: 10px;
+    border: dotted;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.director-olga {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 200px;
+
+}
+
+#olga {
+    margin: 0 20px;
+    border-style: double;
+}
+
+.olgainfo {
+    background-color: #e62117bd;
+    padding: 0 10px;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.members {
+    display: flex;
+    width: 80%;
+    margin: 60px ;
+    margin-left: 100px;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.member {
+    text-align: center;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+.divider {
+    border: solid 2px  #e62117bd;
+    margin-top: 60px ;
+}
+
+.minfo {
+    font-size: 20px;
+}
+
+footer {
+    border-top: solid 2px #e62117bd;
+    text-align: center;
+    font-size: 18px;
+}
+
+#vk {
+    text-decoration: none;
+    color: black;
     font-size: 30px;
 }
 
-h1, p {
-   margin: 1em auto;
-   text-align: center;
-}
-
-
-form {
-    border: 3px;
-    max-width: 800px;
-    min-width: 300px;
-    border-style: dashed;
-    border-width: 5px;
-    border-color: white;
-   
-    padding: 1em;
-    margin: 0 auto;
-
-}
-
-label {
-    display: block;
-    margin: 0.5rem;
-    padding-top: 7px;
-    padding-bottom: 7px;
-}
-
-input,
-textarea,
-select {
-  margin: 10px 0 0 0;
-  width: 100%;
-  height: 3em;
- 
-    
-}
-fieldset {
-  border: none;
-  padding: 2rem 0;
-  border-bottom: 3px solid #d41f1fce;
-}
-.inline {
-  width: unset;
-  margin: 0 1em 0 0;
-  vertical-align: middle;
-  scale: 1.7;
-}
-#checkbox {
-  width: unset;
-  margin: 0 0.5em 0 0;
-  vertical-align: middle;
-  flex-direction: column;
-}
-
-input[type="checkbox"] {
-   width: unset;
-   height: 2rem;
-  margin: 0 1em 0 0;
-  vertical-align: middle;
-  flex-direction: column;
-  scale: 1.7;
-}
-
-::placeholder {
-    font-size: 20px;
-}
-
-#name, #email, #number, textarea, #submit {
-    border-radius: 0.2cm;
-}
-
-#dropdown {
-    font-size: 20px;
-    font-weight: bold;
+#vk:hover {
+    cursor: pointer;
+    color:#e62117bd;
 }

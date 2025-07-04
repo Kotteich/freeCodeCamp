@@ -2,52 +2,68 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <title>Registration Form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Tribute page</title>
     <link rel="stylesheet" href="styles.css" />
     </head>
     <body>
-<h1 id="title">Survey form</h1>
-<p id="description">This is a project №1 for freeCodeCamp</p>
-
-<form id="survey-form">
-  <fieldset>
-  <label id="name-label" for="name">Name<input id="name" type="text" placeholder="Enter your name" value=""/></label>
-<label id="email-label" for="email">Email<input id="email" type="email" placeholder="Enter your email" value="" required /></label>
-<label id="number-label" for="number">Age<input id="number" type="number" min="1" max="120" placeholder="Enter your age" value="" required/></label>
- <label>Select your gender (required)</label>
-
-<label for="female"><input id="female" name="gender"  type="radio" value="1" class="inline" checked/>Female</label>
-<label for="male"><input id="male" name="gender"  type="radio" value="2" class="inline" />Male</label> </fieldset>
-
-<fieldset>
 
 
-<label for="dropdown">Select your weapon <select name="weapon" id="dropdown">
-  <option value="">Longsword</option>
-  <option value="1">Rapier</option>
-  <option value="2">Sabre</option>
-  <option value="3">Sword&Buckler</option>
-</select></label>
+ <header class="header">   
+<img id="logo" width="150" height="150" src="logo.jpg" alt="logo">
+<h1 id="title">&#171Artist & Co&#187</h1>
+<p id="description">This is a project №2 for freeCodeCamp</p>
+</header>
 
-<div id="checkbox">Where did you see fencing?
-  
- <label><input name="movie" type="checkbox" value="1">Movie</input></label>
- <label><input name="book" type="checkbox" value="2">Book</input></label>
-  <label><input name="game" type="checkbox" value="3">Game</input></label>
-  <label><input name="life" type="checkbox" value="4">Life</input></label>
-  <label><input name="other" type="checkbox" value="5">Other</input></label>
-
+<div class="main-foto">
+  <img id="photo1" src="photo1.jpg" height="800" alt="photo">
+  <figcaption class="figcap1">Арт-директор объединения Ольга Михайлова и ее работники: 
+    <p>Юлия Симонова, Мария Маркова и Виталий.</figcaption>
 </div>
 
-<label for="addinfo">Tell us more about yourself
-  <textarea id="addinfo" name="addinfo" rows="3" cols="30" placeholder="I like fencing..."> </textarea>
-</label>
+<div class="main-info">
+<p><span class="bold">Творческое объединение «Артист и КО»</span> - команда профессиональных оперных певцов, работающая с перспективой развития и поддержки классической музыки и лучших традиций вокальной культуры.</p>
+<p>Для наших зрителей звучат жемчужины русского классического романса, шедевры барочной музыки, фрагменты спектаклей из любимых опер и оперетт, а также любимые песни советских композиторов. Каждая программа выступления уникальна – наша команда вдохновляется разными идеями, что позволяет создавать неповторимые сценарии и поразительные сочетания в репертуаре! На концертах царит волшебная, легкая, теплая атмосфера, наполненная знакомыми настроениями и мыслями разных эпох, но также неповторимыми репликами и задумками наших артистов.</p>
+</div>
+
+
+<div class="director-olga">
+  <img src="olga.jpg" id="olga" width="800" alt="Olga">
+  <figcaption class="olgainfo">Профессионал своего дела — арт-директор объединения Ольга Михайлова</figcaption>
+</div>
+
+<div class="divider"></div>
+
+<div class="members" id="members">
+
+<div class="member JS">
+  <img src="1.jpg"  width="400" alt="julia">
+  <figcaption class="minfo">Юлия Симонова (сопрано)</figcaption>
+</div>
+
+<div class="member MM">
+  <img src="2.jpg" width="400" alt="maria">
+  <figcaption class="minfo">Мария Маркова (сопрано)</figcaption>
+</div>
+
+<div class="member VH">
+  <img src="3.jpg" width="" height="600" alt="vitali">
+  <figcaption class="minfo">Виталий Хабалаев (концертмейстер)</figcaption>
+</div>
+
+</div>
+<footer>
+  <div class="contacts">
+    <p>По всем вопросам обращайтесь к арт-директору Ольге. Только она все решает</p>
+  </div>
+
+  <div class="VK">
+<a id="vk" href="https://vk.com/artistikoo">Написать нам ВК</a>
+  </div>
+
+</footer>
 
 
 
-</fieldset>
-<input value="Submit" type="submit">
-</form>
-
-    </body>
-    </html>
+</body>
+</html>
