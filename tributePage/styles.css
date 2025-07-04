@@ -83,4 +83,67 @@ margin: 2em 1em;
     border: dotted;
 }
 
+.bold {
+    font-weight: bold;
+}
 
+.director-olga {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 200px;
+
+}
+
+#olga {
+    margin: 0 20px;
+    border-style: double;
+}
+
+.olgainfo {
+    background-color: #e62117bd;
+    padding: 0 10px;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.members {
+    display: flex;
+    width: 80%;
+    margin: 60px ;
+    margin-left: 100px;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.member {
+    text-align: center;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+.divider {
+    border: solid 2px  #e62117bd;
+    margin-top: 60px ;
+}
+
+.minfo {
+    font-size: 20px;
+}
+
+footer {
+    border-top: solid 2px #e62117bd;
+    text-align: center;
+    font-size: 18px;
+}
+
+#vk {
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
+
+#vk:hover {
+    cursor: pointer;
+    color:#e62117bd;
+}
