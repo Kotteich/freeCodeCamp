@@ -1,7 +1,8 @@
 * {
     font-family: 'Courier New', Courier, monospace;
     font-size: 26px;
-    border: solid 1px;
+    
+    color: #1A090D
 }
 
 #menu {
@@ -24,6 +25,7 @@
     height: 120px;
     object-fit: cover;
      overflow: hidden;
+     margin-left: 20px;
 
 
 }
@@ -31,11 +33,16 @@
 #nav-bar {
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 
 .nav-link {
     margin-left: 10px;
     margin-right: 10px;
+    margin-top: 30px;
+    text-align: center;
+    font-weight: 600;
+    text-decoration: none;
 }
 
 
@@ -70,3 +77,19 @@
     flex-direction: row;
     justify-content: flex-end;
 }
+
+
+#op2 {
+    color: #6B6570;
+    border: 2px solid #4A314D;
+    padding: 5px;
+}
+
+#op3 {
+    color: #fff;
+    border: 2px solid #1A090D;
+    padding: 5px;
+    background-color: #4A314D;
+}
+
+
